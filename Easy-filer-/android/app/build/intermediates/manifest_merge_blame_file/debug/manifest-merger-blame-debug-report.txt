@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.easyfiler"
+4    android:versionCode="2"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <uses-feature
+13-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:4:5-85
+14        android:name="android.hardware.camera"
+14-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:4:19-57
+15        android:required="false" />
+15-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:4:58-82
+16    <uses-feature
+16-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:5:5-91
+17        android:name="android.hardware.camera.front"
+17-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:5:19-63
+18        android:required="false" />
+18-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:5:64-88
+19
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:6:5-75
+20-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:6:22-73
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:7:5-64
+21-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:7:22-62
+22
+23    <queries>
+23-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-11:15
+24        <intent>
+24-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:18
+25            <action android:name="android.media.action.IMAGE_CAPTURE" />
+25-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-73
+25-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:21-70
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-81
+29-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-78
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+31    <!--
+32    This manifest file is used only by Gradle to configure debug-only capabilities
+33    for React Native Apps.
+34    -->
+35    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+35-->[com.facebook.react:react-android:0.74.1] C:\Users\ziakh\.gradle\caches\transforms-3\7c2cce868ef531b6b6df8001f6f32fa2\transformed\jetified-react-android-0.74.1-debug\AndroidManifest.xml:16:5-78
+35-->[com.facebook.react:react-android:0.74.1] C:\Users\ziakh\.gradle\caches\transforms-3\7c2cce868ef531b6b6df8001f6f32fa2\transformed\jetified-react-android-0.74.1-debug\AndroidManifest.xml:16:22-75
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] C:\Users\ziakh\.gradle\caches\transforms-3\6f981bdfb870f65d414f87a785577a92\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+38        android:name="com.easyfiler.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] C:\Users\ziakh\.gradle\caches\transforms-3\6f981bdfb870f65d414f87a785577a92\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] C:\Users\ziakh\.gradle\caches\transforms-3\6f981bdfb870f65d414f87a785577a92\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.easyfiler.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.9.0] C:\Users\ziakh\.gradle\caches\transforms-3\6f981bdfb870f65d414f87a785577a92\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] C:\Users\ziakh\.gradle\caches\transforms-3\6f981bdfb870f65d414f87a785577a92\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:10:5-29:19
+44        android:name="com.easyfiler.MainApplication"
+44-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:11:7-38
+45        android:allowBackup="false"
+45-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:15:7-34
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.9.0] C:\Users\ziakh\.gradle\caches\transforms-3\6f981bdfb870f65d414f87a785577a92\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:icon="@mipmap/ic_launcher"
+49-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:13:7-41
+50        android:label="@string/app_name"
+50-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:12:7-39
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:14:7-52
+52        android:theme="@style/AppTheme"
+52-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:16:7-38
+53        android:usesCleartextTraffic="true" >
+53-->D:\admk\Easy-filer-\android\app\src\debug\AndroidManifest.xml:6:9-44
+54        <activity
+54-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:17:7-28:18
+55            android:name="com.easyfiler.MainActivity"
+55-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:18:9-37
+56            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+56-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:20:9-118
+57            android:exported="true"
+57-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:23:9-32
+58            android:label="@string/app_name"
+58-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:19:9-41
+59            android:launchMode="singleTask"
+59-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:21:9-40
+60            android:windowSoftInputMode="adjustResize" >
+60-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:22:9-51
+61            <intent-filter>
+61-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:24:9-27:25
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:25:13-65
+62-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:25:21-62
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:26:13-73
+64-->D:\admk\Easy-filer-\android\app\src\main\AndroidManifest.xml:26:23-70
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-24:20
+69            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+69-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-94
+70            android:authorities="com.easyfiler.provider"
+70-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-60
+71            android:exported="false"
+71-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+72            android:grantUriPermissions="true" >
+72-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-47
+73            <meta-data
+73-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:78
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-67
+75                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+75-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-75
+76        </provider>
+77
+78        <activity
+78-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-28:72
+79            android:name="com.yalantis.ucrop.UCropActivity"
+79-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-60
+80            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+80-->[:react-native-image-crop-picker] D:\admk\Easy-filer-\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-69
+81        <activity
+81-->[com.facebook.react:react-android:0.74.1] C:\Users\ziakh\.gradle\caches\transforms-3\7c2cce868ef531b6b6df8001f6f32fa2\transformed\jetified-react-android-0.74.1-debug\AndroidManifest.xml:19:9-21:40
+82            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+82-->[com.facebook.react:react-android:0.74.1] C:\Users\ziakh\.gradle\caches\transforms-3\7c2cce868ef531b6b6df8001f6f32fa2\transformed\jetified-react-android-0.74.1-debug\AndroidManifest.xml:20:13-77
+83            android:exported="false" />
+83-->[com.facebook.react:react-android:0.74.1] C:\Users\ziakh\.gradle\caches\transforms-3\7c2cce868ef531b6b6df8001f6f32fa2\transformed\jetified-react-android-0.74.1-debug\AndroidManifest.xml:21:13-37
+84
+85        <meta-data
+85-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\ziakh\.gradle\caches\transforms-3\9f10929134b70c49e93fd56f2f8ea297\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+86            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+86-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\ziakh\.gradle\caches\transforms-3\9f10929134b70c49e93fd56f2f8ea297\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+87            android:value="GlideModule" />
+87-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\ziakh\.gradle\caches\transforms-3\9f10929134b70c49e93fd56f2f8ea297\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ziakh\.gradle\caches\transforms-3\aa6f5c0a561d15a48e9f0e0b1ba57e26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ziakh\.gradle\caches\transforms-3\aa6f5c0a561d15a48e9f0e0b1ba57e26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+91            android:authorities="com.easyfiler.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ziakh\.gradle\caches\transforms-3\aa6f5c0a561d15a48e9f0e0b1ba57e26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ziakh\.gradle\caches\transforms-3\aa6f5c0a561d15a48e9f0e0b1ba57e26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ziakh\.gradle\caches\transforms-3\aa6f5c0a561d15a48e9f0e0b1ba57e26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ziakh\.gradle\caches\transforms-3\aa6f5c0a561d15a48e9f0e0b1ba57e26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ziakh\.gradle\caches\transforms-3\aa6f5c0a561d15a48e9f0e0b1ba57e26\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ziakh\.gradle\caches\transforms-3\58fd0e87affde4ff629bf8fab787ba3f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ziakh\.gradle\caches\transforms-3\58fd0e87affde4ff629bf8fab787ba3f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ziakh\.gradle\caches\transforms-3\58fd0e87affde4ff629bf8fab787ba3f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+99        </provider>
+100
+101        <meta-data
+101-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ziakh\.gradle\caches\transforms-3\97c3f6b899872ed991680cc71a189fe4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+102            android:name="com.facebook.soloader.enabled"
+102-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ziakh\.gradle\caches\transforms-3\97c3f6b899872ed991680cc71a189fe4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+103            android:value="false" />
+103-->[com.facebook.soloader:soloader:0.10.5] C:\Users\ziakh\.gradle\caches\transforms-3\97c3f6b899872ed991680cc71a189fe4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+104    </application>
+105
+106</manifest>
